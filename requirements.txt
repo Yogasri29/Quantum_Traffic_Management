@@ -1,0 +1,12 @@
+# Python 3.11 or 3.12 recommended
+streamlit>=1.40
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+
+# Quantum layer (optional: the app falls back to a built-in NumPy QAOA simulator if these fail to import)
+qiskit>=1.2
+qiskit-algorithms>=0.3.1
+qiskit-optimization>=0.6.1
+docplex>=2.25
+networkx>=3.2
